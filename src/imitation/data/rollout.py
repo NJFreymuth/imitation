@@ -21,7 +21,7 @@ def unwrap_traj(traj: types.TrajectoryWithRew) -> types.TrajectoryWithRew:
     `obs` and `rews`.
 
     Fails if `infos` is None or if the trajectory was generated from an
-    environment without imitation.util.rollout.RolloutInfoWrapper
+    environment without imitation.baseline_util.rollout.RolloutInfoWrapper
 
     Args:
         traj: A trajectory generated from `RolloutInfoWrapper`-wrapped Environments.
@@ -112,7 +112,7 @@ class TrajectoryAccumulator:
         Before calling this method, each environment index key needs to be
         initialized with the initial observation (usually from `venv.reset()`).
 
-        See the body of `util.rollout.generate_trajectory` for an example.
+        See the body of `baseline_util.rollout.generate_trajectory` for an example.
 
         Args:
             acts: Actions passed into `VecEnv.step()`.

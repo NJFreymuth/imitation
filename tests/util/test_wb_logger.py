@@ -1,4 +1,4 @@
-"""Tests `imitation.util.logger.WandbOutputFormat`."""
+"""Tests `imitation.baseline_util.logger.WandbOutputFormat`."""
 
 import sys
 from typing import Any, Mapping

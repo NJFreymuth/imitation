@@ -1,4 +1,4 @@
-"""Tests `imitation.util.reward_wrapper`."""
+"""Tests `imitation.baseline_util.reward_wrapper`."""
 
 import numpy as np
 

@@ -1,4 +1,4 @@
-"""Tests `imitation.util.sacred` and `imitation.util.util`."""
+"""Tests `imitation.baseline_util.sacred` and `imitation.baseline_util.baseline_util`."""
 
 import numpy as np
 import pytest

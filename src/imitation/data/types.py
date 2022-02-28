@@ -237,7 +237,7 @@ class TransitionsMinimal(th_data.Dataset):
             # Return type is a dictionary. Array values have no batch dimension.
             #
             # Dictionary of np.ndarray values is a convenient
-            # torch.util.data.Dataset return type, as a torch.util.data.DataLoader
+            # torch.baseline_util.data.Dataset return type, as a torch.baseline_util.data.DataLoader
             # taking in this `Dataset` as its first argument knows how to
             # automatically concatenate several dictionaries together to make
             # a single dictionary batch with `torch.Tensor` values.

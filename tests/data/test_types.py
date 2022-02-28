@@ -129,7 +129,7 @@ def _assert_dataclasses_equal(a, b) -> None:
 @pytest.mark.parametrize("act_space", ACT_SPACES)
 @pytest.mark.parametrize("length", LENGTHS)
 class TestData:
-    """Tests of imitation.util.data.
+    """Tests of imitation.baseline_util.data.
 
     Grouped in a class since parametrized over common set of spaces.
     """

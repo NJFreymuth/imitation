@@ -1,4 +1,4 @@
-"""Tests `imitation.util.logger`."""
+"""Tests `imitation.baseline_util.logger`."""
 
 import csv
 import os.path as osp

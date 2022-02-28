@@ -1,4 +1,4 @@
-"""Tests for `imitation.util.registry`."""
+"""Tests for `imitation.baseline_util.registry`."""
 
 import pytest
 

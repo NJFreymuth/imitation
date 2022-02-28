@@ -90,7 +90,7 @@ def eval_policy(
             if None, then do not save.
 
     Returns:
-        Return value of `imitation.util.rollout.rollout_stats()`.
+        Return value of `imitation.baseline_util.rollout.rollout_stats()`.
     """
     log_dir = common.make_log_dir()
     sample_until = rollout.make_sample_until(eval_n_timesteps, eval_n_episodes)

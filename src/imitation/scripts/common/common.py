@@ -148,7 +148,7 @@ def make_venv(
             episode.
         log_dir: Logs episode return statistics to a subdirectory 'monitor`.
         env_make_kwargs: The kwargs passed to `spec.make` of a gym environment.
-        kwargs: Passed through to `util.make_vec_env`.
+        kwargs: Passed through to `baseline_util.make_vec_env`.
 
     Returns:
         The constructed vector environment.
